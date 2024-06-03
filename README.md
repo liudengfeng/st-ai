@@ -27,3 +27,30 @@ Check out the [Vanilla Chat App repo](https://github.com/craigsdennis/vanilla-ch
 - 💬 [Discord](https://discord.cloudflare.com)
 - 🎥 [Learn Cloudflare Workers - Full Course for Beginners](https://youtu.be/H7Qe96fqg1M)
 - 🎥 [Stateful Apps with Cloudflare Workers - Full Course (APIs, Workers KV, D1, SQLite, Prisma)](https://youtu.be/QTsaAhFvX9o)
+
+# Python Workers AI Starter Kit
+
+## Installation
+
+Copy your secrets file and add your credentials.
+
+```bash
+cp .streamlit/secrets.toml.example .streamlit/secrets.toml
+```
+
+```bash
+python -m venv venv
+source ./venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+## Develop
+
+```bash
+python -m streamlit run app.py
+```
+
+## More resources
+
+- [Workers AI Documentation](https://developers.cloudflare.com/workers-ai/)
+- [Streamlit Examples](https://github.com/craigsdennis/image-model-streamlit-workers-ai)
